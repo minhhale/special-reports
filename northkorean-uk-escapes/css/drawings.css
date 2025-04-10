@@ -1,0 +1,206 @@
+
+.skyline {
+    width: 550px;
+    position: absolute;
+    right: 20dvw;
+    top: 15dvh;
+    opacity: 0.8;
+    z-index: -2;
+}
+
+@media screen and (max-width: 575px) {
+    .skyline {
+        right: 3vw;
+        top: 10vh;
+    }
+  }
+
+.waves {
+    width: 65rem;
+    position: absolute;
+    left: 6.2dvw;
+    opacity: 0.4;
+    z-index: -3;
+}
+
+
+.bubles {
+    width: 55rem;
+    position: absolute;
+    left: 9dvw;
+    z-index: -3;
+}
+
+@media screen and (max-width: 575px) {
+    .bubles, .waves {
+        width: 25rem;
+        left: 3dvw;
+    }
+  }
+
+  
+.artist {
+    width: 25rem;
+    position: absolute;
+    left: 18dvw;   
+    z-index: -1; 
+    opacity: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .artist {
+        width: 18rem;
+        left: 5dvw;
+    }
+  }
+
+
+.turtle-1 {
+    width: 12rem;
+    position: absolute;
+    z-index: -2;
+    right: 32dvw;
+}
+
+@media screen and (max-width: 575px) {
+    .turtle-1 {
+        width: 8rem;
+        left: 5dvw;
+    }
+  }
+
+.turtle-3 {
+    width: 22rem;
+    position: absolute;
+    right: 13dvw;
+    opacity: 0.7;
+    z-index: -2;
+}
+
+@media screen and (max-width: 575px) {
+    .turtle-3 {
+        width: 12rem;
+        right: 5dvw;
+    }
+  }
+
+.strings {
+    width: 500px;
+    position: absolute;
+    left: 17vw;
+    opacity: 0.7;
+    z-index: -3;
+}
+
+@media screen and (max-width: 575px) {
+    .strings {
+        width: 300px;
+        left: 5vw;
+    }
+  }
+
+  
+.rain-water{
+    width: 500px;
+    position: absolute;
+    left: 17vw;
+    opacity: 0.7;
+    z-index: -3;
+}
+
+@media screen and (max-width: 575px) {
+    .rain-water{
+        width: 300px;
+        left: 5vw;
+    }
+  }
+
+.guitarist{
+    width: 480px;
+    position: absolute;
+    left: 17vw;
+    z-index: -1;
+}
+
+@media screen and (max-width: 575px) {
+    .guitarist{
+        width: 300px;
+        left: 5vw;
+    }
+  }
+
+.pigeon1{
+    width: 17em;
+    position: absolute;
+    left: 10vw;
+    z-index: -1;
+}
+
+@media screen and (max-width: 575px) {
+    .pigeon1{
+        width: 140px;
+        left: 15vw;        
+    }
+  }
+
+.pigeon2{
+    width: 300px;
+    position: absolute;
+    left: 30vw;
+    z-index: -2;
+}
+
+@media screen and (max-width: 575px) {
+    .pigeon2{
+        width: 200px;
+        left: 17vw;
+    }
+  }
+
+  .footprint{
+    width: 35em;
+    position: absolute;
+    left: 15vw;
+    opacity: 0.5;
+    z-index: -3;
+}
+
+@media screen and (max-width: 575px) {
+    .footprint{
+        width: 300px;
+        left: 5vw;
+    }
+  }
+
+.politician{
+    width: 21em;
+    position: absolute;
+    left: 17vw;
+    z-index: -1;
+}
+
+@media screen and (max-width: 575px) {
+    .politician{
+        width: 300px;
+        left: 5vw;
+    }
+  }
+
+
+.image{
+    animation: float 4s ease-in-out infinite;
+}
+
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
