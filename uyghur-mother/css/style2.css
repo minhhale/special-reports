@@ -1,0 +1,139 @@
+
+ .text-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 60rem;
+   position: relative;
+   padding: 2rem 2rem 3rem 2rem;
+ }
+ 
+ @media screen and (max-width: 575px) {
+   .text-section {
+     width: 100vw;
+     padding: 1rem;
+   }
+ }
+
+ 
+ .text-section h1 {
+   font-size: 80px;
+   margin-top: 30vh;
+ }
+ 
+ .text-section p {
+   font-size: 1.2rem;
+ }
+
+ .text-section img {
+   border-radius: 5px;
+ }
+
+ .big-container {
+   min-height: 600vh;
+ }
+ 
+ video {
+   position: sticky;
+   top: 0;
+   width: 100%;
+   object-fit: cover;
+   height: 100vh;
+ }
+
+
+ 
+/* Code for fixed media with scrolling text over */
+.Block {
+   line-height: 1.5;
+   min-height: 100vh;
+   overflow: hidden;
+   position: relative;
+ }
+ 
+ 
+.Block-media {
+  height: 100%;
+  left: 0;
+  max-height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.Block-media.is-fixed {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  max-height: none;
+}
+.Block-media > * {
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ .Block-content {
+   display: flex;
+   flex-direction: column;
+   /* Set where the text should be placed in its container */
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   /* Set max width for text over media */
+   max-width: 100%;
+   /* Adjust to set the distance between text slides */
+   min-height: 80vh;
+   position: relative;
+   width: calc(100% - 1.875rem);
+   z-index: 1;
+ }
+ 
+ .Block-content p {
+  color: rgb(255, 255, 255);
+  background-color: rgba(3, 3, 3, 0.18);  
+  font-size: 1.7rem;
+  line-height: 1.4;
+  padding: 1.5rem; 
+  font-style: italic; 
+  text-align: center;
+ }
+
+ @media screen and (max-width: 575px) {
+
+  .Block-content p  {
+    padding: 2rem !important;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .Block-content p  {
+    padding: 1.52rem !important;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+}
+
+ .Media video,
+ .Media img {
+   background-position: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   left: 0;
+   object-fit: cover;
+   position: absolute;
+   width: 100%;
+ }
+ 
+
+ .article {
+   padding: 2rem;
+ }
+
+ .article p {
+   padding: 2rem;
+ }
