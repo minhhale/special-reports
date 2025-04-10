@@ -1,0 +1,172 @@
+
+#bg
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#civilians
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#soldiers
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+#saw-kaw {
+    position: absolute;	
+    top: 10%;
+    left: 22%;
+    transform: translateX(-22%);
+    max-width: 250px;
+    opacity: 0;
+}
+
+@media (max-width: 812px) {
+    #saw-kaw {
+      top: 9%;
+      left: 9%;
+      max-width: 26vw;
+    }
+}
+
+@media (max-width: 575px) {
+  #saw-kaw {
+    top: 9%;
+    left: 9%;
+    max-width: 37vw;
+  }
+}
+
+#sandra {
+    position: absolute;	
+    top: 10%;
+    right: 48%;
+    max-width: 250px;
+}
+@media (max-width: 812px) {
+    #sandra {
+      top: 7%;
+      left: 37%;
+      max-width: 24vw;
+    }
+}
+@media (max-width: 575px) {
+  #sandra {
+    top: 8%;
+    left: 34%;
+    max-width: 35vw;
+  }
+}
+
+#levai {
+  position: absolute;
+  top: 18%;
+  right: 24%;
+  transform: translate(-25%, -9%);
+  max-width: 221px;
+}
+@media (max-width: 812px) {
+  #levai {
+    top: 14%;
+    right: 3%;
+    max-width: 22vw;
+  }
+}
+@media (max-width: 575px) {
+  #levai {
+    top: 12%;
+    right: -5%;
+    max-width: 30vw;
+  }
+}
+
+#leafs {
+  position: absolute;	
+  bottom: 10%;
+  left: 18%;
+  transform: translateX(-4%);
+  max-width: 65vw;
+  filter: blur(1px);
+  opacity: 0.1;
+  z-index: 2;
+}
+@media (max-width: 812px) {
+  #leafs {
+    top: 58%;
+    left: 8%;
+    max-width: 88vw;
+    z-index: 1;
+  }
+}
+@media (max-width: 575px) {
+  #leafs {
+    top: 41%;
+    left: 4%;
+    max-width: 100vw;
+    z-index: 1;
+  }
+}
+
+#botabaw {
+  position: absolute;	
+  bottom: 1dvh;
+  left: 4%;
+  transform: translateX(-4%);
+  max-width: 300px;
+}
+
+@media (max-width: 812px) {
+  #botabaw {
+    bottom: -5%;
+    left: 16%;
+    max-width: 33vw;
+  }
+}
+@media (max-width: 575px) {
+    #botabaw {
+      bottom: 5dvh;
+      left: 8%;
+      max-width: 51vw;      
+      z-index: 2;
+    }
+}
+
+#thuzar {
+  position: absolute;	
+  bottom: 1dvh;
+  right: 5%;
+  max-width: 355px;
+}
+@media (max-width: 812px) {
+  #thuzar {
+    bottom: 1%;
+    left: 50%;
+    max-width: 37vw;
+  }
+}
+@media (max-width: 575px) {
+    #thuzar {
+      bottom: 5dvh;
+      left: 40%;
+      max-width: 63vw;
+    }
+}
