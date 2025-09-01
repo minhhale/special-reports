@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Myanmar Election 2020</title>
+	<meta name="description" content="Five years ago, historic elections elevated Aung San Suu Kyi's National League for Democracy to power after a long and peaceful struggle against military rule. The nation votes again Nov. 8, 2020 in what will be a popularity test of her civilian government.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="shortcut icon" sizes="16x16" href="https://radiofreeasia-radio-free-asia-prod.web.arc-cdn.net/pf/resources/icon/rfa/favicon.ico?d=33">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/core.css">
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/ihover.css">
+ 
+
+  <!-- for Google -->
+	<meta name="description" content="Myanmar Election 2020">
+	<meta name="keywords" content="Five years ago, historic elections elevated Aung San Suu Kyi's National League for Democracy to power after a long and peaceful struggle against military rule. The nation votes again Nov. 8, 2020 in what will be a popularity test of her civilian government." />
+
+          <!-- start: Facebook Open Graph -->
+	<meta property="og:title" content="Myanmar Election 2020"/>
+	<meta property="og:description" content="Five years ago, historic elections elevated Aung San Suu Kyi's National League for Democracy to power after a long and peaceful struggle against military rule. The nation votes again Nov. 8, 2020 in what will be a popularity test of her civilian government."/>
+	<meta property="og:type" content="News"/>
+	<meta property="og:url" content="//www.rfa.org/english/news/special/myanmar-election-2020/"/>
+	<meta property="og:image" content="https://www.rfa.org/english/news/special/myanmar-election-2020/img/myanmar-election2020.jpg"/>
+	<!-- end: Facebook Open Graph -->
+
+    <!-- for Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@RadioFreeAsia">
+	<meta name="twitter:creator" content="@RadioFreeAsia">
+	<meta property="twitter:title" content="Myanmar Election 2020">
+	<meta property="twitter:description" content="Five years ago, historic elections elevated Aung San Suu Kyi's National League for Democracy to power after a long and peaceful struggle against military rule. The nation votes again Nov. 8 in what will be a popularity test of her civilian government.">
+	<meta property="twitter:image" content="https://www.rfa.org/english/news/special/myanmar-election-2020/img/myanmar-election2020.jpg">
+    <meta name="twitter:url" content="//www.rfa.org/english/news/special/myanmar-election-2020/" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42684338-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-42684338-14');
+</script>
+
+<!-- Tealium -->
+
+<script language= "javascript1.1" type="text/javascript">
+	var utag_data={ runs_js: "Yes",
+					entity: "RFA",
+					language: "English",
+					language_service: "RFA English",
+					platform: "Desktop",
+					short_language_service: "ENG",
+					platform_short: "D",
+					property_id: "43",
+					page_name:"One Belt One Road",   
+					template:"None",
+					short_headline:"Myanmar Election 2020",
+					long_headline:"Myanmar Election 2020",
+					content_type:"Hubpage",
+					pub_day:"6",
+					pub_year:"2020",
+					pub_month:"10",
+					pub_hour:"26",
+					pub_minute:"40",
+					pub_weekday:"Friday",
+					article_uid:"Analysis",
+					article_cms_id:"98d1243c-f1c4-4ade-9fa9-7e3e9ef921b8",    
+					headline:"Myanmar Election 2020",
+				   tags: "tag1; tag2;",          
+				  categories:"news;special;myanmar-election-2020",
+				   
+				   page_title:"Myanmar Election 2020",
+				   page_type:"hubpage",
+				   slug:"myanmar-election-2020",
+				   section:"special/myanmar-election-2020",
+				 };
+	
+	</script>
+	<script language="javascript1.1" type="text/javascript" src="https://www.rfa.org/english/news/special/myanmar-election-2020/utag.js"></script>
+
+
+ <!-- start: News feed -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript">
+	function doIt(){
+			var newsUrl = "/english/news/special/myanmar-election-2020/news/RSS";
+            var newsUrl2 = "/english/news/special/myanmar-election-2020/news/RSS";
+			
+            $.get(newsUrl, function(data) {
+                     var target = $('#feed1');
+                     var $xml = $(data);
+                     $xml.find("item:lt(10)").each(function() {
+                       var $this = $(this),
+                       item = {
+		         title: $this.find("title").text(),
+                         link: $this.find("link").text(),
+                         description: $this.find("description").text(),
+                         pubDate: new Date($this.find("dc\\:date").text()),
+                         author: $this.find("author").text()
+                      }
+                      var content = '<header><h6 class="bold uppercase"><a href="' + item.link + '" target="_blank">' + item.title + '</a></h6><p>' + item.pubDate.toDateString() + '</p></header><p>' + item.description + '</p>';
+                      target.append(content);
+                    });
+                   });
+
+                   $.get(commentariesUrl, function(data) {
+                     var target = $('#feed2');
+                     var $xml = $(data);
+                     $xml.find("item:lt(3)").each(function() {
+                       var $this = $(this),
+                       item = {
+		         title: $this.find("title").text(),
+                         link: $this.find("link").text(),
+                         description: $this.find("description").text(),
+                         pubDate: new Date($this.find("dc\\:date").text()),
+                         author: $this.find("author").text()
+                      }
+                      var content = '<header><h4><a href="' + item.link + '" target="_blank">' + item.title + '</a></h4><p>' + item.pubDate.toDateString() + '</p></header><p>' + item.description + '</p>';
+                      target.append(content);
+                    });
+                   });
+
+		};			   
+	$(document).ready(doIt);
+	 
+		</script>    
+<!-- end: News feed -->
+
+
+</head>
+<body class="sticky-header sticky-footer">
+
+	<!-- Preloader -->
+	<div id="preloader"></div>
+
+	<!-- Header -->
+	<header id="header">
+
+		<!-- Logo -->
+		<a href="https://www.rfa.org/english/" target="_blank" class="logo">
+			<img src="img/rfa_logo_2021_text.png" class="logo-light" alt="">
+			<img src="img/rfa_logo_2021_text.png" class="logo-dark" alt="">
+		</a>
+
+		<!-- Mobile Menu Icon -->
+		<a href="#" class="mob-menu">
+			<span></span><span></span><span></span>
+		</a>
+
+		<!-- Navigation -->
+		<nav class="navigation">
+			<ul>
+
+				<li>
+					<a href="index.html">Main Page</a>
+				</li>
+				<li>
+					<a href="#news">News</a>
+				</li>
+				<li>
+					<a href="#video">Video</a>
+				</li>
+			
+                <li>
+					<a href="#">Myanmar’s key election issues</a>
+
+							<ul>
+								<li><a href="democratic.html">Democratic reform </a></li>
+								<li><a href="ethnic.html">Ethnic conflict</a></li>
+								<li><a href="economy.html">Economy and poverty</a></li>
+								<li><a href="international.html">International relations </a></li>
+								<li><a href="corruption.html">Corruption</a></li>
+								<li><a href="migrant.html">Migrant laborers and refugees </a></li>
+							</ul>
+
+	            </li>
+		  </ul>
+		</nav>
+		<!-- /Navigation -->
+
+			
+
+	</header>
+	<!-- /Header -->
+
+	<!-- Main Content -->
+	<main id="main">
+
+		  <!-- Hero -->
+	<section class="hero-fullscreen" >
+        <img class="img-responsive" src="img/myanmar-election2020.jpg" alt="Russia Report">
+        
+        
+            <!-- /Hero -->
+
+
+		<!-- Scroll Down Line -->
+		<a href="#" class="scroll-down"><span></span></a>
+
+		<!-- About -->
+<!-- Project Section -->
+<section class="px-5">
+	<div class="container py-10 px-0">
+		<div class="row justify-content-between">
+
+
+			<!-- Live news feed Column -->
+			<div class="col-lg-6" >
+
+				<h4 id="news" class="bold uppercase">ELECTION NEWS</h4>
+				<hr style="height: 2rem;">
+
+				<!-- Key Issue -->
+				<div>
+					<h4><a href="https://www.rfa.org/english/myanmar/2025/03/12/china-election/" target="_blank"> Chinese envoy discusses election with Myanmar junta chief </a> </h4>
+					<p><span class="image left" style="width: 50%;"><img src="https://www.rfa.org/resizer/v2/DYUCYFQ4NFHHDF4IZ4ENTVN5KM.jpg?smart=true&auth=128925831377be74c9422486fb5647e11519399ec1c6e5f5b6e9113eb184becd&width=1600&height=1066" alt="" /></span>A Chinese envoy has met Myanmar’s junta chief to discuss help for an election that the military aims to hold by January, days after the Myanmar leader secured a promise of support for the vote from its other main foreign backer, Russia.</p>
+				</div>
+				<hr style="height: 2rem;">
+				<div>
+					<h4><a href="https://www.rfa.org/english/myanmar/2025/03/08/election/" target="_blank"> Myanmar junta chief says election to be held by January 2026  </a> </h4>
+					<p><span class="image left" style="width: 50%;"><img src="https://www.rfa.org/resizer/v2/64KAPVBSEBDILCGF2FLVNXSWTI.JPG?smart=true&auth=9b53b85ce492348d0740bb618e6ea3ceeaf09b23aca99d485b3af51b4b84ca5f&width=1600&height=1066" alt="" /></span>Myanmar will hold parliamentary elections by January next year, the leader of the ruling military said, without setting a date for a vote that the generals who seized power in 2021 will be hoping will end widespread opposition to their grip on politics.</p>
+				</div>	
+
+				<hr style="height: 2rem;">
+				<div>
+					<h4><a href="https://www.rfa.org/english/myanmar/2025/03/26/myanmar-junta-election-schedule/" target="_blank"> Myanmar junta announces schedule for December, January election</a> </h4>
+					<p><span class="image left" style="width: 50%;"><img src="https://www.rfa.org/resizer/v2/7EOMKEL4PFH3DARTDHD5YUYXKY.JPG?focal=1423%2C935&auth=7ebcd05d589ad4be373a5ebedbfeee9860dd944d3bd007eda117a3c7a1b14940&width=1600&height=1066" alt="" /></span>Myanmar’s junta announced Wednesday it plans to hold a national election in four phases in December and January, the first time the military has outlined a detailed schedule for the controversial vote. </p>
+				</div>
+				
+				<hr style="height: 2rem;">
+				<div>
+					<h4><a href="https://www.rfa.org/english/myanmar/2025/03/10/myanmar-election-announcement-reax/" target="_blank"> Observers dismiss latest junta plan for Myanmar elections</a> </h4>
+					<p><span class="image left" style="width: 50%;"><img src="https://www.rfa.org/resizer/v2/7EOMKEL4PFH3DARTDHD5YUYXKY.JPG?focal=1423%2C935&auth=7ebcd05d589ad4be373a5ebedbfeee9860dd944d3bd007eda117a3c7a1b14940&width=1600&height=1066" alt="" /></span>Observers on Monday dismissed plans announced by Myanmar’s junta to hold elections in the war-torn country by January, saying the military won’t be able to hold the vote in territory it doesn’t control — about half the country — and that the public will view the results as a sham. </p>
+				</div>
+
+				<hr style="height: 2rem;">
+				<div>
+					<h4><a href="https://www.rfa.org/english/myanmar/2024/12/10/election-townships-vote/" target="_blank"> Myanmar to organize election in fewer than half of townships, parties say </a> </h4>
+					<p><span class="image left" style="width: 50%;"><img src="https://www.rfa.org/resizer/v2/MBY5TPITWZHEVIXFGEXRD6UU6Y.jpg?smart=true&auth=642522e9813cfc2f78a5651d1c487532acf37d0a49f25d235e850f29f9d99414&width=1600&height=1066" alt="" /></span>Myanmar is expected to organize an election next year in fewer than half of its 330 townships in the first phase of a staggered vote, a political party official said on Tuesday, with an insurgency by anti-junta forces likely to prevent the polls from opening in large parts of the country.</p>
+				</div>				
+				<hr style="height: 2rem;">
+
+				<hr style="height: 2rem;">
+				<div>
+					<h4><a href="https://www.rfa.org/english/myanmar/2024/11/20/myanmar-election-census/" target="_blank"> Junta chief vows to complete Myanmar census by year-end -- then hold elections</a> </h4>
+					<p><span class="image left" style="width: 50%;"><img src="https://www.rfa.org/resizer/v2/63CHTA4S3RGVBBZB72UJC54WYA.jpg?smart=true&auth=d9447dfd150a3decd6dc90a108b395186aa4e20f9d6e831c9da8416cd42ca2fa&width=1600&height=1066" alt="" /></span>During his recent visit to China, Myanmar’s junta chief Min Aung Hlaing promised top Communist Party officials that his regime will complete a census by the end of the year -- then hold “free and fair elections,” he revealed on Tuesday.</p>
+				</div>				
+				<hr style="height: 2rem;">
+
+
+				<!-- /Key Issue -->
+			</div>
+			<!-- /Live news feed Column -->
+
+			<!--Key election issues Column -->
+			<div class="col-lg-5 pl-0">
+				
+				<h4 class="bold uppercase">Key election issues</h4>
+				<hr style="height: 2rem;">
+
+				<!-- Key Issue -->
+				<div>
+					<h5 class="uppercase"><a href="democratic.html"> Democratic reform</a> </h5>
+					<p><span class="image left"><img src="img/democracy.jpg" alt="" /></span>Myanmar’s democratic reform efforts have stalled and in some cases have taken a turn for the worse in the past five years. NLD attempts to amend the 2008 constitution to curb the political power of the military and allow Aung San Suu Kyi to become president have been blocked by military lawmakers. <a href="democratic.html">Read more...</a></p>
+				</div>
+				<!-- /Key Issue -->
+
+				<!-- Key Issue -->
+				<div>
+					<h5 class="uppercase"><a href="ethnic.html">Ethnic conflict</a></h5>
+					<p><span class="image left"><img src="img/ethnic.jpg" alt="" /></span>There are simmering conflicts with ethnic armies in other border regions too. The government has held three rounds of the Union Peace Conference and will hold another in August but it still appears far from achieving a political deal, even with ethnic armed groups that have signed a national cease-fire agreement.  <a href="ethnic.html">Read more...</a></p>
+				</div>
+				<!-- /Key Issue -->
+
+
+				<!-- Key Issue -->
+				<div>
+					<h5 class="uppercase"><a href="economy.html">Economy and poverty</a></h5>
+					<p><span class="image left"><img src="img/economy.jpg" alt="" /></span>Myanmar’s economy has grown at an annual rate of around 6 percent during the NLD’s time in office, but the COVID-19 pandemic and resultant government-ordered lockdown are expected to all but wipe out GDP growth for the current fiscal year.  <a href="economic.html">Read more...</a></p>
+				</div>
+				<!-- /Key Issue -->				
+
+				<!-- Key Issue -->
+				<div>
+					<h5 class="uppercase"><a href="international.html">International relations </a></h5>
+					<p><span class="image left"><img src="img/international.jpg" alt="" /></span>Myanmar’s international standing, which had been elevated by its historic transition to democracy, has plummeted over the 2017 military-led crackdown on Rohingya Muslims in Rakhine State. Myanmar faces genocide-related charges at the International Court of Justice, the U.N.’s top court which settles disputes between nations. <a href="international.html">Read more...</a></p>
+				</div>
+				<!-- /Key Issue -->			
+
+
+				<!-- Key Issue -->
+				<div>
+					<h5 class="uppercase"><a href="corruption.html">Corruption</a></h5>
+					<p><span class="image left"><img src="img/corruption.jpg" alt="" /></span>The NLD government has made some progress in tackling growing inequality and rising business costs in Myanmar, but corruption remains endemic in both the public and private sectors, and is sure to be pressing issue for the next administration. <a href="corruption.html">Read more...</a></p>
+				</div>
+				<!-- /Key Issue -->		
+
+
+				<!-- Key Issue -->
+				<div>
+					<h5 class="uppercase"><a href="migrant.html">Migrant laborers and refugees </a></h5>
+					<p><span class="image left"><img src="img/migrant.jpg" alt="" /></span>The numbers of ethnic minority people displaced by conflict has only climbed under the NLD government. In addition to the hundreds of thousands of Rohingya displaced internally and in Bangladesh, some 200,000 mostly ethnic Rakhines have been uprooted by the current conflict in Rakhine State.  <a href="migrant.html">Read more...</a></p>
+				</div>
+				<!-- /Key Issue -->					
+			</div>	
+
+			<div class="container d-flex justify-content-center">
+				<div class="col-lg-12">
+
+				<hr>	
+					<img class="img-responsive" src="img/myanmar-election-logo-pinky.png" alt="myanmar election logo pinky">
+				<hr>
+
+			<div id="video" class="video-container" align="center">
+
+				<iframe id="kaltura_player_1605036484" src="https://cdnapisec.kaltura.com/p/1251832/sp/125183200/embedIframeJs/uiconf_id/46334041/partner_id/1251832?iframeembed=true&playerId=kaltura_player_1605036484&flashvars[playlistAPI.kpl0Id]=1_b6p94rfe" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
+
+
+			</div>
+			<!-- /Video Background -->
+			</div>
+			</div>
+
+
+		</div>
+	</div>
+</section>
+<!-- /Project Section -->
+        
+
+
+		<!-- CTA -->
+		<section class="cta">
+			<div class="container d-flex justify-content-center">
+			<div class="col-lg-10">	
+			<a href="#main"> Back to top</a>
+   				 <hr style="height:3em;">
+				 		
+			<div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-icon-color="#5A5A5A">
+				<a class="a2a_button_facebook"></a>
+				<a class="a2a_button_x"></a>
+				<a class="a2a_button_whatsapp"></a>
+				<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+			  </div>			  				
+			<script async src="https://static.addtoany.com/menu/page.js"></script>
+			<hr style="height:2em;">
+		 </div>
+		
+		 <div class="container py-sm-12 py-8">
+		
+
+			</div>
+		</section>
+		<!-- /CTA -->
+
+</main>
+	<!-- /Main Content -->
+
+	<!-- Footer -->
+	<footer id="footer">
+
+	  <!-- Copyright -->
+
+		<!-- Social/Contact Links -->
+		<div class="small text-links">
+        	
+			<a href="https://www.facebook.com/RFAEnglish/" target="_blank">Facebook</a>
+			<a href="https://www.youtube.com/user/RFAVideo" target="_blank">Youtube</a>
+			<a href="https://twitter.com/RadioFreeAsia" target="_blank">Twitter</a>
+		</div>
+
+</footer>
+	<!-- /Footer -->
+
+	<!-- JS -->
+	<script src="js/core.js"></script>
+	<script src="js/theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Myanmar Election 2020</title>
+	<meta name="description" content="Five years ago, historic elections elevated Aung San Suu Kyi's National League for Democracy to power after a long and peaceful struggle against military rule. The nation votes again Nov. 8, 2020 in what will be a popularity test of her civilian government.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+	    <link rel="shortcut icon" sizes="16x16" href="https://radiofreeasia-radio-free-asia-prod.web.arc-cdn.net/pf/resources/icon/rfa/favicon.ico?d=33">
+	<link rel="stylesheet" href="css/core.css">
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/ihover.css">
+ 
+
+  <!-- for Google -->
+	<meta name="description" content="Myanmar Election 2020">
+	<meta name="keywords" content="Five years ago, historic elections elevated Aung San Suu Kyi's National League for Democracy to power after a long and peaceful struggle against military rule. The nation votes again Nov. 8, 2020 in what will be a popularity test of her civilian government." />
+
+          <!-- start: Facebook Open Graph -->
+	<meta property="og:title" content="Myanmar Election 2020"/>
+	<meta property="og:description" content="Five years ago, historic elections elevated Aung San Suu Kyi's National League for Democracy to power after a long and peaceful struggle against military rule. The nation votes again Nov. 8, 2020 in what will be a popularity test of her civilian government."/>
+	<meta property="og:type" content="News"/>
+	<meta property="og:url" content="//www.rfa.org/english/news/special/myanmar-election-2020/"/>
+	<meta property="og:image" content="https://www.rfa.org/english/news/special/myanmar-election-2020/img/myanmar-election2020.jpg"/>
+	<!-- end: Facebook Open Graph -->
+
+    <!-- for Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@RadioFreeAsia">
+	<meta name="twitter:creator" content="@RadioFreeAsia">
+	<meta property="twitter:title" content="Myanmar Election 2020">
+	<meta property="twitter:description" content="Five years ago, historic elections elevated Aung San Suu Kyi's National League for Democracy to power after a long and peaceful struggle against military rule. The nation votes again Nov. 8 in what will be a popularity test of her civilian government.">
+	<meta property="twitter:image" content="https://www.rfa.org/english/news/special/myanmar-election-2020/img/myanmar-election2020.jpg">
+    <meta name="twitter:url" content="//www.rfa.org/english/news/special/myanmar-election-2020/" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42684338-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-42684338-14');
+</script>
+
+<!-- Tealium -->
+
+<script language= "javascript1.1" type="text/javascript">
+	var utag_data={ runs_js: "Yes",
+					entity: "RFA",
+					language: "English",
+					language_service: "RFA English",
+					platform: "Desktop",
+					short_language_service: "ENG",
+					platform_short: "D",
+					property_id: "43",
+					page_name:"One Belt One Road",   
+					template:"None",
+					short_headline:"Myanmar Election 2020",
+					long_headline:"Myanmar Election 2020",
+					content_type:"Hubpage",
+					pub_day:"6",
+					pub_year:"2020",
+					pub_month:"10",
+					pub_hour:"26",
+					pub_minute:"40",
+					pub_weekday:"Friday",
+					article_uid:"Analysis",
+					article_cms_id:"98d1243c-f1c4-4ade-9fa9-7e3e9ef921b8",    
+					headline:"Myanmar Election 2020",
+				   tags: "tag1; tag2;",          
+				  categories:"news;special;myanmar-election-2020",
+				   
+				   page_title:"Myanmar Election 2020",
+				   page_type:"hubpage",
+				   slug:"myanmar-election-2020",
+				   section:"special/myanmar-election-2020",
+				 };
+	
+	</script>
+	<script language="javascript1.1" type="text/javascript" src="https://www.rfa.org/english/news/special/myanmar-election-2020/utag.js"></script>
+
+
+ <!-- start: News feed -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript">
+	function doIt(){
+			var newsUrl = "/english/news/special/myanmar-election-2020/news/RSS";
+            var newsUrl2 = "/english/news/special/myanmar-election-2020/news/RSS";
+			
+            $.get(newsUrl, function(data) {
+                     var target = $('#feed1');
+                     var $xml = $(data);
+                     $xml.find("item:lt(10)").each(function() {
+                       var $this = $(this),
+                       item = {
+		         title: $this.find("title").text(),
+                         link: $this.find("link").text(),
+                         description: $this.find("description").text(),
+                         pubDate: new Date($this.find("dc\\:date").text()),
+                         author: $this.find("author").text()
+                      }
+                      var content = '<header><h6 class="bold uppercase"><a href="' + item.link + '" target="_blank">' + item.title + '</a></h6><p>' + item.pubDate.toDateString() + '</p></header><p>' + item.description + '</p>';
+                      target.append(content);
+                    });
+                   });
+
+                   $.get(commentariesUrl, function(data) {
+                     var target = $('#feed2');
+                     var $xml = $(data);
+                     $xml.find("item:lt(3)").each(function() {
+                       var $this = $(this),
+                       item = {
+		         title: $this.find("title").text(),
+                         link: $this.find("link").text(),
+                         description: $this.find("description").text(),
+                         pubDate: new Date($this.find("dc\\:date").text()),
+                         author: $this.find("author").text()
+                      }
+                      var content = '<header><h4><a href="' + item.link + '" target="_blank">' + item.title + '</a></h4><p>' + item.pubDate.toDateString() + '</p></header><p>' + item.description + '</p>';
+                      target.append(content);
+                    });
+                   });
+
+		};			   
+	$(document).ready(doIt);
+	 
+		</script>    
+<!-- end: News feed -->
+
+
+</head>
+<body class="sticky-header sticky-footer">
+
+	<!-- Preloader -->
+	<div id="preloader"></div>
+
+	<!-- Header -->
+	<header id="header">
+
+		<!-- Logo -->
+		<a href="https://www.rfa.org/english/" target="_blank" class="logo">
+			<img src="img/rfa_logo_2021_text.png" class="logo-light" alt="">
+		</a>
+
+		<!-- Mobile Menu Icon -->
+		<a href="#" class="mob-menu">
+			<span></span><span></span><span></span>
+		</a>
+
+		<!-- Navigation -->
+		<nav class="navigation">
+			<ul>
+
+				<li>
+					<a href="index.html">Main Page</a>
+				</li>
+				<li>
+					<a href="news-videos.html">News & Video</a>
+				</li>
+                <li>
+					<a href="#">Myanmar’s key election issues</a>
+
+							<ul>
+								<li><a href="democratic.html">Democratic reform </a></li>
+								<li><a href="ethnic.html">Ethnic conflict</a></li>
+								<li><a href="economy.html">Economy and poverty</a></li>
+								<li><a href="international.html">International relations </a></li>
+								<li><a href="corruption.html">Corruption</a></li>
+								<li><a href="migrant.html">Migrant laborers and refugees </a></li>
+							</ul>
+
+	            </li>
+
+		  </ul>
+		</nav>
+		<!-- /Navigation -->
+
+			
+
+	</header>
+	<!-- /Header -->
+
+	<!-- Main Content -->
+	<main id="main">
+
+<!-- Project Section -->
+<section class="px-5">
+    <div class="container py-10 px-0">
+        <div class="row justify-content-between">
+
+            <!-- Details Column -->
+            <div class="col-lg-5" data-animation="fade-in-bottom 1s .2s">
+
+                <h2 class="bold uppercase">Democratic reform</h2>
+                  <hr class="separator-left">
+                  <p>Myanmar’s democratic reform efforts have stalled and in some cases have taken a turn for the worse in the past five years. NLD attempts to amend the 2008 constitution to curb the political power of the military and allow Aung San Suu Kyi to become president have been blocked by military lawmakers, who control a quarter of the seats in parliament giving them a veto on amendments. That will remain a formidable obstacle to constitutional change after this election.</p>
+
+                <p>Although Suu Kyi once declared that even one political prisoner is one too many, Myanmar has a growing number of what human rights activists consider to be prisoners of conscience. As of June 2020, 641 political prisoners were in various stages of incarceration or prosecution, according to the non-government Association of Assistance for Political Prisoners. Many have been charged under vague national security laws held over from the colonial era and Myanmar’s decades of military rule. Among those jailed have been activists who criticized the military, villagers protesting land grabs or pollution, and journalists accused of defaming government officials or the military. Authorities have also used counter-terrorism and unlawful association laws for prosecutions related to the escalating conflict in Rakhine State.</p>
+                  
+            </div>
+            <!-- /Details Column -->
+
+            <!-- Gallery Column -->
+            <div class="col-lg-6 pl-0" data-animation="fade-in-bottom 1s .4s">
+                
+                <!-- Gallery Grid -->
+                <div class="grid lightbox photo-gallery" 
+                     data-columns="2" 
+                     data-gutter="2" 
+                     data-cell-ratio="5/4"
+                     data-thumbnails="false" 
+                     data-thumbnails-pinned="false">
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item wide lightbox-link"
+                       href="img/democratic1.jpg" 
+                       title="Military and civilian members of parliament vote on proposed amendments to the 2008 Constitution, Naypyidaw, March 10, 2020.  Photo: AP" 
+                       data-background="img/democratic1.jpg"
+                       data-thumbnail="img/democratic1.jpg"></a>
+                    <!-- /Gallery Item -->
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item  tall lightbox-link"
+                       href="img/democratic2.jpg" 
+                       title="Myanmar State Counsellor Aung San Suu Kyi (front) arrives while President Htin Kyaw (center) looks on during a signing ceremony for a ceasefire agreement with two ethnic armed groups, New Mon State Party and Lahu Democratic Union in Naypyidaw on Feb. 13, 2018. Photo: AFP" 
+                       data-background="img/democratic2.jpg"
+                       data-thumbnail="img/democratic2.jpg"></a>
+                    <!-- /Gallery Item -->
+
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item lightbox-link"
+                       href="img/democratic6.jpg" 
+                       title="Myanmar journalists hold banners as they protest for press freedom outside the office of the Daily Eleven newspaper in Yangon, on Jan. 7, 2014. Photo: AP" 
+                       data-background="img/democratic6.jpg"
+                       data-thumbnail="img/democratic6.jpg"></a>
+                    <!-- /Gallery Item -->
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item lightbox-link"
+                       href="img/democratic4.jpg" 
+                       title="Prisoners just released from Insein Prison in Yangon shout slogans demanding the release of all remaining political prisoners, outside the prison on Jan. 22, 2016. Photo: AFP" 
+                       data-background="img/democratic4.jpg"
+                       data-thumbnail="img/democratic4.jpg"></a>
+                    <!-- /Gallery Item -->
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item lightbox-link"
+                       href="img/democratic3.jpg" 
+                       title="Wai Phyo (second right), the detained chief editor of one of the news journals of Eleven Media Group, is escorted by a policeman in a court house in Yangon on Jan. 6, 2017. Photo: AFP" 
+                       data-background="img/democratic3.jpg"
+                       data-thumbnail="img/democratic3.jpg"></a>
+                    <!-- /Gallery Item -->
+
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item lightbox-link"
+                       href="img/democratic7.jpg" 
+                       title="A woman casts her vote in a polling station in Naypyitaw, on Nov. 8, 2015, during historic elections. Photo: AP" 
+                       data-background="img/democratic7.jpg"
+                       data-thumbnail="img/democratic7.jpg"></a>
+                    <!-- /Gallery Item -->
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item wide lightbox-link"
+                       href="img/democratic5.jpg" 
+                       title="In this combination image made from two photos, Reuters journalists Kyaw Soe Oo, left, and Wa Lone, are handcuffed as they are escorted by police out of court Sept. 3, 2018, in Yangon. Photo: AP" 
+                       data-background="img/democratic5.jpg"
+                       data-thumbnail="img/democratic5.jpg"></a>
+                    <!-- /Gallery Item -->
+
+                </div>
+                <!-- /Gallery Grid -->
+
+            </div>
+            <!-- /Gallery Column -->
+
+        </div>
+    </div>
+</section>
+<!-- /Project Section -->
+
+
+		<!-- CTA -->
+		<section class="cta">
+			<div class="container d-flex justify-content-center">
+			<div class="col-lg-10">
+
+                <hr style="height:3em;">
+		
+    <a href="#top"> Back to top</a>
+    <hr style="height:3em;">
+		
+			<div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-icon-color="#5A5A5A">
+				<a class="a2a_button_facebook"></a>
+				<a class="a2a_button_x"></a>
+				<a class="a2a_button_whatsapp"></a>
+				<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+			  </div>
+			  
+						
+			<script async src="https://static.addtoany.com/menu/page.js"></script>
+			  <hr style="height:3em;">
+			
+		 </div>
+		
+		 <div class="container py-sm-12 py-8">
+		
+
+			</div>
+		</section>
+		<!-- /CTA -->
+
+</main>
+	<!-- /Main Content -->
+
+	<!-- Footer -->
+	<footer id="footer">
+
+	  <!-- Copyright -->
+
+		<!-- Social/Contact Links -->
+		<div class="small text-links">
+        	
+			<a href="https://www.facebook.com/RFAEnglish/" target="_blank">Facebook</a>
+			<a href="https://www.youtube.com/user/RFAVideo" target="_blank">Youtube</a>
+			<a href="https://twitter.com/RadioFreeAsia" target="_blank">Twitter</a>
+		</div>
+
+</footer>
+	<!-- /Footer -->
+
+	<!-- JS -->
+	<script src="js/core.js"></script>
+	<script src="js/theme.js"></script>
+</body>
+</html>
